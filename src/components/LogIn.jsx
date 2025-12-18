@@ -110,7 +110,7 @@ function Login({ onLoginSuccess }) {
                     ? 'border-red-500 ' 
                     : 'border-gray-300 '
                 }`}
-                placeholder="you@example.com"
+                placeholder="Enter your email"
               />
               {errors.email && (
                 <p className="text-sm text-red-600">{errors.email}</p>
