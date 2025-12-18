@@ -21,22 +21,6 @@ npm run dev
 ```
 npm run build
 ```
-
-## What changed (recent)
-
-- Updated `src/components/LogIn.jsx`:
-  - The login form now validates inputs and saves the submitted credentials to `localStorage` for demo purposes.
-  - On submit the form data is logged to the browser console as a pure JSON string (for easy parsing by dev tools or scripts).
-  - A lightweight login history is stored under the `loginHistory` key in `localStorage`.
-  - UI includes password show/hide toggle and inline validation feedback.
-
-These changes were made to improve local debugging and to make the submitted data easy to consume by tools that expect JSON.
-
-## Notes and safety
-
-- This app is a frontend demo only. Storing real credentials in `localStorage` is insecure — this is strictly for local testing.
-- Do not use this pattern for production authentication.
-
 ## Commit & push
 
 Run these commands locally to commit the README and changes, then push to GitHub. Replace `<branch>` with your branch name (for example `dev`):
